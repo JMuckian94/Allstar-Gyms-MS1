@@ -64,5 +64,5 @@ I went with a design that aims to empower the potential gym user, to invoke stro
 
 #### Fonts
 
-For fonts I browsed Google Fonts for a good strong title and heading font as well as a font suited for detailed information. I chose "Bebas Neue" for my strong title font as I felt it gives headlines a punchy look. This pairs well with "Roboto" which I used for all paragraph text. Roboto is easily legible and should aid with accessibility.
+For fonts I browsed [Google Fonts](https://fonts.google.com/?preview.text=Strong&preview.text_type=custom) for a good strong title and heading font as well as a font suited for detailed information. I chose [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?preview.text=Strong&preview.text_type=custom#standard-styles) for my strong title font as I felt it gives headlines a punchy, standout look. This pairs well with [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Strong&preview.text_type=custom) which I used for all paragraph text. Roboto is easily legible and should aid with accessibility as it allows for a more natural reading rhythm.
 
