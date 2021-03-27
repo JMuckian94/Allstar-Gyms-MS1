@@ -76,11 +76,15 @@ For colors I went with a blend of light and dark colors. Lighter colors are prim
 
 ![Allstar-color-pallete](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/AllstarColorPal.png "Allstar-Color-Pallete")
 
-#981F29 Ruby Red: This color will be used for 
-#090446 Midnight Blue: This color will be used for
-#4361EE Ultramarine Blue: This color will be used for
-#494947 Davys Grey: This color will be used for
-#FFFFFF: This color will be used for primarily text elements as it will stand out best on dark backgrounds.
+- #981F29 Ruby Red: This color will be used for 
+- #090446 Midnight Blue: This color will be used for
+- #4361EE Ultramarine Blue: This color will be used for
+- #494947 Davys Grey: This color will be used for
+- #FFFFFF: This color will be used for primarily text elements as it will stand out best on dark backgrounds.
 
 Work in progress
+
+#### Structure
+
+I chose to utilise [Bootstrap](https://getbootstrap.com/) to create the overall structure of the website. It allowed me to have all my content in responsive row/column sections on the page. These sections can also adapt to various screen sizes. Bootstrap can also provide some basic CSS and Javascript functionality so it is a great way to assemble the skeleton of the page before custom styling begins.
 
