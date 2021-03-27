@@ -58,4 +58,10 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - I expect the website to assist with the customers journey in joining up
 - I want social media or any other expernal links on the page to open up a new tab in the browser
 
+### Design Choices
+
+I went with a design that aims to empower the potential gym user, to invoke strong emotions of confidence and inner strength. I want potential customer to view this website as a portal to becoming the best they can be. This requires a blend of strong dark colors blended with bright striking ones to add a visual flair. 
+
+
+
 
