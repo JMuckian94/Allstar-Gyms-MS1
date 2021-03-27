@@ -30,6 +30,13 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - As a user, I want to be able to contact a member of staff, if the need arises, directly from the website. If I left something behind I will have piece of mind to know I can get in touch quickly and can avoid a phonecall.
 - As a user, I want the website to motivate me to join and to start working out and better myself.
 - As a user, I want to be able to intuitively move around the site, as I am only browsing and am not really looking for anything in particular.
+
+### Site Owner Goals
+
+- To advertise our presence within the Dublin area
+- To attract new members
+- To persuade customers to consider us over our competitors
+- To stand out as a brand in peoples minds
 - As a user, I want to have access to the gyms assoicated social media so I can be part of their community.
 
 
