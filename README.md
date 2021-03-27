@@ -62,6 +62,7 @@ The website design I have chosen is clear and concise, and provides sufficient i
 
 I went with a design that aims to empower the potential gym user, to invoke strong emotions of confidence and inner strength. I want potential customer to view this website as a portal to becoming the best they can be. This requires a blend of strong dark colors blended with bright striking ones to add a visual flair. 
 
+#### Fonts
 
-
+For fonts I browsed Google Fonts for a good strong title and heading font as well as a font suited for detailed information. I chose "Bebas Neue" for my strong title font as I felt it gives headlines a punchy look. This pairs well with "Roboto" which I used for all paragraph text. Roboto is easily legible and should aid with accessibility.
 
