@@ -66,3 +66,10 @@ I went with a design that aims to empower the potential gym user, to invoke stro
 
 For fonts I browsed [Google Fonts](https://fonts.google.com/?preview.text=Strong&preview.text_type=custom) for a good strong title and heading font as well as a font suited for detailed information. I chose [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?preview.text=Strong&preview.text_type=custom#standard-styles) for my strong title font as I felt it gives headlines a punchy, standout look. This pairs well with [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Strong&preview.text_type=custom) which I used for all paragraph text. Roboto is easily legible and should aid with accessibility as it allows for a more natural reading rhythm.
 
+#### Icons
+
+I used some free icons available on [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2) to enhance and draw attention to certain sections of the page. The appropriate icons coincide with the topic being discussed in the text, such as using a dumbell when talking about gym equipment. Soical media icons are used instead of urls for asthetic enhancement. These icons are also styled alongside all other elements of the page so they blend seemlessly without sticking out. The navigation is also designed to shrink into a hamburger button when the page is using mobile screen format.
+
+#### Colors
+
+For colors I went with 
