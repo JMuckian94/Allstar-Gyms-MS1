@@ -39,4 +39,23 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - To stand out as a brand in peoples minds
 - As a user, I want to have access to the gyms assoicated social media so I can be part of their community.
 
+### User Requirements and Expectations
+
+#### Requirements
+
+- Striking and attractive overall design
+- Easy to navigate using the navigation bar and other interactive elements
+- Relevant information including everything a potential customer could be looking for
+- Clear and concise information regarding pricing and policy
+- Appropriate contact and location information including contact form 
+
+#### Expectations
+
+- I can quickly find the info I am looking for
+- I wont be confused, distracted, or discouraged by the website layout
+- I expect the navigation links to work and take me to where I need to go
+- I expect the website to be responsive and intuitive on mobile, tablet, or desktop
+- I expect the website to assist with the customers journey in joining up
+- I want social media or any other expernal links on the page to open up a new tab in the browser
+
 
