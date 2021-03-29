@@ -110,3 +110,9 @@ I used Bootstrap to create a responsive searchbar that will adapt to the platfor
 
 The hero image slideshow will act as an initial impression maker for any first time visitors, adding some dynamism to an otherwise static website. This section will use a rotation of images to give users a quick taste of the gyms atmosphere. The slideshow is configured to occupy 100% screen width and to adjust height to the appropriate size for each viewing platform.
 
+### Promotional Jumbotron
+
+Here I have added a Bootstrap jumbotron to announce the current promotion on offer with Allstar Gyms. It will include the announcement message, some special pricing information, and a sign up button. All text will be centered and custom styled with CSS.
+
+### 
+
