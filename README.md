@@ -130,3 +130,11 @@ The gallery section will have 3 columns on Desktop, 2 on tablet and 1 on mobile.
 
 For this section I went with a dark background image of the gym facility which I then overlayed with column sections. These columns contain the class schedule information and everything is formatted to be easily legible to the user while adding an attractive, eye catching section to the page. 
 
+### Contact Section
+
+This section will contain the company's contact information as well as a contact form for if email or phone options arn't imediately available to the user. I aligned the contact information on the left and the contact form on the right. Below these elements will be the company's social media links
+
+## Features to be Implemented
+
+- Sign up modal for when the user clicks the sign up button on the jumbotron
+- 
