@@ -122,3 +122,7 @@ I have added a reviews section, positioning it using the Bootstrap grid system. 
 
 For this section, I went for the Bootstrap accordian feature to organise the FAQs, making them easier to use and navigate. The initial framework is constructed in HTML using Bootstrap and then styled further in CSS. "+" and "-" symbols provided by FontAwesome add addtional visual indicators to assist accessiblility.
 
+### Gallery
+
+The gallery section will have 3 columns on Desktop, 2 on tablet and 1 on mobile. The images selected will showcase the gyms interior, equipment and clientele. Each image is scaled appropriately for the column it occupies with mobile configured to have the image fill full screen width. I also reduced the number of images available on smaller devices to reduce user fatigue.
+
