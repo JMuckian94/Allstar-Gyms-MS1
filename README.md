@@ -106,3 +106,7 @@ Here are the links to my wireframes:
 
 I used Bootstrap to create a responsive searchbar that will adapt to the platform the user is viewing the website from. Since this is a single page site design I have opted for a sticky navbar. This will give the user greater agility and help them identify the relevant information sooner. This navbar will convert to a hamburger icon on mobile devices to avoid crowding. I have also implemented the Bootstrap scroll spy feature, to remind the user where they are currently on the page, by highlighting the appropriate heading in the navbar.
 
+### Hero Image Slideshow
+
+The hero image slideshow will act as an initial impression maker for any first time visitors, adding some dynamism to an otherwise static website. This section will use a rotation of images to give users a quick taste of the gyms atmosphere. The slideshow is configured to occupy 100% screen width and to adjust height to the appropriate size for each viewing platform.
+
