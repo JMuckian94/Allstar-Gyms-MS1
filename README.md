@@ -114,5 +114,7 @@ The hero image slideshow will act as an initial impression maker for any first t
 
 Here I have added a Bootstrap jumbotron to announce the current promotion on offer with Allstar Gyms. It will include the announcement message, some special pricing information, and a sign up button. All text will be centered and custom styled with CSS.
 
-### 
+### Reviews
+
+I have added a reviews section, positioning it using the Bootstrap grid system. On Desktop, I have aligned the first members image to the left the second to right while centering the review text. I wanted to minimise unused space in this area. On tablet,  both review images are aligned left with text aligned right. On mobile, the reviews section is configured to hide the images and only display the review text. This is to avoid crowding.
 
