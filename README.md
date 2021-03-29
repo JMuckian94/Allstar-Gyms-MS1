@@ -118,3 +118,7 @@ Here I have added a Bootstrap jumbotron to announce the current promotion on off
 
 I have added a reviews section, positioning it using the Bootstrap grid system. On Desktop, I have aligned the first members image to the left the second to right while centering the review text. I wanted to minimise unused space in this area. On tablet,  both review images are aligned left with text aligned right. On mobile, the reviews section is configured to hide the images and only display the review text. This is to avoid crowding.
 
+### FAQs
+
+For this section, I went for the Bootstrap accordian feature to organise the FAQs, making them easier to use and navigate. The initial framework is constructed in HTML using Bootstrap and then styled further in CSS. "+" and "-" symbols provided by FontAwesome add addtional visual indicators to assist accessiblility.
+
