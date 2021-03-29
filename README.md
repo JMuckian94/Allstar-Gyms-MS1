@@ -88,3 +88,16 @@ Work in progress
 
 I chose to utilise [Bootstrap](https://getbootstrap.com/) to create the overall structure of the website. It allowed me to have all my content in responsive row/column sections on the page. These sections can also adapt to various screen sizes. Bootstrap can also provide some basic CSS and Javascript functionality so it is a great way to assemble the skeleton of the page before custom styling begins.
 
+## Wireframes
+
+I used [Balsamiq's](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw9YWDBhDyARIsADt6sGbn1ZOXBiFtGYsZKhw_Vn14WS0VrUxu8nj3vnZ_2fwGqf4FdsBoB20aAosXEALw_wcB) trial software to create my wireframe mockups. I started with the desktop design so I could figure out how best to utilise the space available. I then scaled down my designs to better fit tablet and mobile platforms. For overall design, I went with a single page website as my skills are limited to static mobile designs at this point in my learning journey. As mentioned before, the nav bar will assist in quickly scrolling to the desired area of the page.
+
+Here are the links to my wireframes:
+
+### [Desktop Wireframe](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/Wireframes/Allstar%20Desktop%20Wireframe.png)
+
+### [Tablet Wireframe](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/Wireframes/Allstar%20Tablet%20Wireframe.png)
+
+### [Mobile Wireframe](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/Wireframes/Allstar%20Mobile%20Wireframe.png)
+
+
