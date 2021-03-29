@@ -126,3 +126,7 @@ For this section, I went for the Bootstrap accordian feature to organise the FAQ
 
 The gallery section will have 3 columns on Desktop, 2 on tablet and 1 on mobile. The images selected will showcase the gyms interior, equipment and clientele. Each image is scaled appropriately for the column it occupies with mobile configured to have the image fill full screen width. I also reduced the number of images available on smaller devices to reduce user fatigue.
 
+### Class Schedule
+
+For this section I went with a dark background image of the gym facility which I then overlayed with column sections. These columns contain the class schedule information and everything is formatted to be easily legible to the user while adding an attractive, eye catching section to the page. 
+
