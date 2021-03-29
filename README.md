@@ -100,4 +100,9 @@ Here are the links to my wireframes:
 
 ### [Mobile Wireframe](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/Wireframes/Allstar%20Mobile%20Wireframe.png)
 
+## Features
+
+### Navigation
+
+I used Bootstrap to create a responsive searchbar that will adapt to the platform the user is viewing the website from. Since this is a single page site design I have opted for a sticky navbar. This will give the user greater agility and help them identify the relevant information sooner. This navbar will convert to a hamburger icon on mobile devices to avoid crowding. I have also implemented the Bootstrap scroll spy feature, to remind the user where they are currently on the page, by highlighting the appropriate heading in the navbar.
 
