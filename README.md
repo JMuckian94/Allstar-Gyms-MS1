@@ -137,4 +137,36 @@ This section will contain the company's contact information as well as a contact
 ## Features to be Implemented
 
 - Sign up modal for when the user clicks the sign up button on the jumbotron
-- 
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- Javascript
+
+### Framworks & External Liberaries
+
+- Bootstrap
+- Font Awesome
+- Google Fonts
+- Unsplash
+- Pexels
+
+### Tools
+
+- Git
+- Gitpod
+- Code Institute Git Template Tools
+- Balsamiq
+- W3C HTML & CSS Validation Service
+
+## Testing of Interactive Elements
+
+### Navigation
+
+### Modals
+
+### Contact Form
+
