@@ -21,15 +21,17 @@ The website design I have chosen is clear and concise, and provides sufficient i
 
 ### User Stories
 
-- As a user, I want to find out what these gyms have available at their facilities. I want to know what kind of gym this is as well as the clientele I can expect to find here.
-- As a user, I want to find information regarding classes as well as associated times. I want to find out quickly as I would like to work classes into my busy schedule.
-- As a user, I want to research pricing and policy information. I will be looking to see if there are any deals available.
-- As a user, I want to see images that show off the gyms interior. I want to imagine myself there and how comfortable I may or may not feel.
-- As a user, I want to be able to see testemonials from people who are already members. I can trust a business more if I can see reviews from real customers.
-- As a user, I want to find out if one of the gyms are near me. If one is and I can find it quickly I will have greater interest in becoming a member.
-- As a user, I want to be able to contact a member of staff, if the need arises, directly from the website. If I left something behind I will have piece of mind to know I can get in touch quickly and can avoid a phonecall.
+- As a user, I want to find out what these gyms have available at their facilities. 
+- As a user, I want to know what kind of gym this is as well as the clientele I can expect to find here.
+- As a user, I want to find information regarding classes as well as associated times. 
+- As a user, I want to research pricing and policy information.
+- As a user, I want to see images that show off the gyms interior and imagine myself there and how comfortable I may or may not feel.
+- As a user, I want to be able to see testemonials from people who are already members.
+- As a user, I want to find out if one of the gyms are near me.
+- As a user, I want to be able to contact a member of staff using information available on the site.
+- As a user, if I left something behind I will have piece of mind to know I can get in touch quickly and can avoid a phonecall.
 - As a user, I want the website to motivate me to join and to start working out and better myself.
-- As a user, I want to be able to intuitively move around the site, as I am only browsing and am not really looking for anything in particular.
+- As a user, I want to be able to intuitively move around the site.
 
 ### Site Owner Goals
 
@@ -86,11 +88,11 @@ Work in progress
 
 #### Structure
 
-I chose to utilise [Bootstrap](https://getbootstrap.com/) to create the overall structure of the website. It allowed me to have all my content in responsive row/column sections on the page. These sections can also adapt to various screen sizes. Bootstrap can also provide some basic CSS and Javascript functionality so it is a great way to assemble the skeleton of the page before custom styling begins.
+I chose to utilise [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) to create the overall structure of the website. It allowed me to have all my content in responsive row/column sections on the page. These sections can also adapt to various screen sizes. Bootstrap can also provide some basic CSS and Javascript functionality so it is a great way to assemble the skeleton of the page before custom styling begins.
 
 ## Wireframes
 
-I used [Balsamiq's](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw9YWDBhDyARIsADt6sGbn1ZOXBiFtGYsZKhw_Vn14WS0VrUxu8nj3vnZ_2fwGqf4FdsBoB20aAosXEALw_wcB) trial software to create my wireframe mockups. I started with the desktop design so I could figure out how best to utilise the space available. I then scaled down my designs to better fit tablet and mobile platforms. For overall design, I went with a single page website as my skills are limited to static mobile designs at this point in my learning journey. As mentioned before, the nav bar will assist in quickly scrolling to the desired area of the page.
+I used [Balsamiq's](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw9YWDBhDyARIsADt6sGbn1ZOXBiFtGYsZKhw_Vn14WS0VrUxu8nj3vnZ_2fwGqf4FdsBoB20aAosXEALw_wcB) to create my wireframe mockups. I used industry best practice to start my designs with mobile viewports before scaling up and fleshing out the website more on larger devices. For overall design, I went with a single page website as my skills are limited to static mobile designs at this point in my learning journey. As mentioned before, the nav bar will assist in quickly scrolling to the desired area of the page.
 
 Here are the links to my wireframes:
 
@@ -148,19 +150,18 @@ This section will contain the company's contact information as well as a contact
 
 ### Framworks & External Liberaries
 
-- Bootstrap
-- Font Awesome
-- Google Fonts
-- Unsplash
-- Pexels
+- [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Unsplash](https://unsplash.com/)
+- [Stockvault](https://www.stockvault.net/)
 
 ### Tools
 
-- Git
-- Gitpod
-- Code Institute Git Template Tools
-- Balsamiq
-- W3C HTML & CSS Validation Service
+- [Git](https://github.com/)
+- [Gitpod](https://gitpod.io/workspaces)
+- [Balsamiq](https://balsamiq.com/)
+- [W3C HTML & CSS Validation Service](https://validator.w3.org/)
 
 ## Testing of Interactive Elements
 
