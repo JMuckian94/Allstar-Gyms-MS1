@@ -92,7 +92,7 @@ I chose to utilise [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started
 
 ## Wireframes
 
-I used [Balsamiq's](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw9YWDBhDyARIsADt6sGbn1ZOXBiFtGYsZKhw_Vn14WS0VrUxu8nj3vnZ_2fwGqf4FdsBoB20aAosXEALw_wcB) to create my wireframe mockups. I used industry best practice to start my designs with mobile viewports before scaling up and fleshing out the website more on larger devices. For overall design, I went with a single page website as my skills are limited to static mobile designs at this point in my learning journey. As mentioned before, the nav bar will assist in quickly scrolling to the desired area of the page.
+I used [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjw9YWDBhDyARIsADt6sGbn1ZOXBiFtGYsZKhw_Vn14WS0VrUxu8nj3vnZ_2fwGqf4FdsBoB20aAosXEALw_wcB) to create my wireframe mockups. I used industry best practice to start my designs with mobile viewports before scaling up and fleshing out the website more on larger devices. For overall design, I went with a single page website as my skills are limited to static mobile designs at this point in my learning journey. As mentioned before, the nav bar will assist in quickly scrolling to the desired area of the page.
 
 Here are the links to my wireframes:
 
