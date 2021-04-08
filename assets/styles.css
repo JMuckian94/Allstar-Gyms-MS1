@@ -1,24 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
 
 /*--Colors--*/
-
-#carouselAllstar {
-    width: 100%;
-    max-height: 550px;
-    overflow: hidden;
+body {
+    background-color: #090446;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #981f29;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+div p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+form {
+    color: #981f29;
+}
+
+#text-muted-j {
+    color: #fff;
+}
+
+.carousel-item {
+  max-height: 400px;
+}
+
+
 #jumbo-outer {
-    background-color: #4361EE;
+  background-color: #981f29;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #jumbo-text-box {
-    background-color: #fff;
-    margin-top: -30px;
-    margin-bottom: -30px;
-    padding: 5px
+  background-color: #fff;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  padding: 5px;
+}
+
+#jumbo-text-box p {
+    color: #494947;
 }
 
 .social-networks {
-    font-size: 40px
+  font-size: 40px;
 }
