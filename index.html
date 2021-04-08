@@ -39,12 +39,23 @@
           <li class="active nav-item mr-2">
             <a class="nav-link" href="#index.html">Home</a>
           </li>
-          <li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
           <li class="nav-item mr-2">
-            <a class="nav-link" href="faqs.html">FAQs</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item mr-2 d-none d-sm-block">
-            <a class="nav-link" href="login.html">Sign In/Sign Up</a>
+            <a class="nav-link" href="#classes">Class Times</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#faqs">FAQs</a>
+          </li>
+          <li class="nav-item mr-2 d-none d-sm-block">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item mr-2 d-none d-sm-block">
+            <a class="nav-link" href="#index.html">Sign In/Sign Up</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -109,13 +120,6 @@
               <p class="text-muted mt-2">
                 <small>Our gyms operate on an over 18's policy.</small>
               </p>
-              <button
-                class="btn btn-primary btn-md"
-                data-toggle="modal"
-                data-target="#signUpModal"
-              >
-                Newsletter
-              </button>
               <br />
             </div>
           </section>
@@ -127,56 +131,45 @@
     <div class="container">
       <section class="about-section">
         <div class="row">
-          <div class="col-12 my-4">
-            <h2 class="text-uppercase">
+          <div class="col-12 mb-2">
+            <h2 id="about" class="text-uppercase">
               About Us <i class="fas fa-fire-alt"></i>
             </h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="media">
-              <div class="review-image d-none d-sm-block">
-                <img
-                  src="assets/img/jelmer-assink-gzeTjGu3b_k-unsplash.jpg"
-                  class="rounded mx-auto d-block"
-                  height="300"
-                />
-              </div>
-              <div class="media-body">
-                <h3>What we are all about!</h3>
-                <p>
-                  Our mission is to fill the gap in the health and fitness
-                  industry and support people of all levels in reaching their
-                  star potential! We want to provide the best quality of service
-                  we can for the reasonable prices we offer.
-                </p>
-              </div>
+        <div class="container">
+          <div class="row my-4 align-items-center">
+            <div class="col-md-7">
+              <img
+                src="assets/img/jelmer-assink-gzeTjGu3b_k-unsplash.jpg"
+                class="img-fluid rounded mx-auto"
+              />
+            </div>
+            <div class="col-md-5 mt-3">
+              <h5>What we are all about!</h5>
+              <p>
+                Our mission is to fill the gap in the health and fitness
+                industry and support people of all levels in reaching their star
+                potential! We want to provide the best quality of service we can
+                for the reasonable prices we offer.
+              </p>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6 ml-auto">
-            <div class="media">
-              <div class="media-body">
-                <h3>
-                  Who is this gym for?
-                </h3>
-                <p>
-                  Our gyms are for people at every level of fitness, 
-                  whether it be jsut starting out or a seasoned veteran. 
-                  We have rules in place to help promote a healthy gym environment and 
-                  harassment of any kind is strictly frowned upon. We aim to help 
-                  build confidence, not take it away!
-                </p>
-              </div>
-              <div class="review-image d-none d-sm-block">
-                <img
-                  src="assets/img/jonathan-borba-zfPOelmDc-M-unsplash.jpg"
-                  class="rounded mx-auto d-block"
-                  height="300"
-                />
-              </div>
+          <div class="row my-4 align-items-center">
+            <div class="col-md-5">
+              <h5>What we are all about!</h5>
+              <p>
+                Our mission is to fill the gap in the health and fitness
+                industry and support people of all levels in reaching their star
+                potential! We want to provide the best quality of service we can
+                for the reasonable prices we offer.
+              </p>
+            </div>
+            <div class="col-md-7">
+              <img
+                src="assets/img/jonathan-borba-zfPOelmDc-M-unsplash.jpg"
+                class="img-fluid rounded mx-auto"
+              />
             </div>
           </div>
         </div>
@@ -188,7 +181,7 @@
       <section class="class-times">
         <div class="row">
           <div class="col-12 my-4">
-            <h2 class="text-uppercase">
+            <h2 id="classes" class="text-uppercase">
               Class Times <i class="fas fa-calendar-times"></i>
             </h2>
           </div>
@@ -227,7 +220,7 @@
       <section class="faqs-section">
         <div class="row">
           <div class="col-12 my-4">
-            <h2 class="text-uppercase">
+            <h2 id="faqs" class="text-uppercase">
               FAQs <i class="fas fa-question-circle"></i>
             </h2>
           </div>
@@ -346,7 +339,7 @@
       <section class="quote">
         <div class="row">
           <div class="col-12 my-4">
-            <h2 class="text-uppercase">
+            <h2 id="reviews" class="text-uppercase">
               Reviews <i class="fas fa-check-square"></i>
             </h2>
           </div>
@@ -405,7 +398,7 @@
       <section class="gallery">
         <div class="row">
           <div class="col-12 my-4">
-            <h2 class="text-uppercase">Gallery</h2>
+            <h2 id="gallery" class="text-uppercase">Gallery <i class="fas fa-camera-retro"></i></h2>
           </div>
         </div>
         <div class="row">
@@ -478,57 +471,55 @@
     <!--GalleryX-->
     <!--Contact-->
     <div class="container">
-      <section class="contactsection">
-        <div class="row">
-          <div class="col-12 my-4">
-            <h2 class="text-uppercase">Contact Us</h2>
-          </div>
+      <div class="row">
+        <div class="col-12 my-4">
+          <h2 id="contact-us" class="text-uppercase">Contact Us <i class="fas fa-phone-square"></i></h2>
         </div>
-        <div class="row">
-          <div class="col">
-            <h5>Head Office</h5>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h5>Head Office</h5>
             <p>Address: 123 Fleet Street, Dublin 4</p>
             <p>Phone: 0123456789</p>
             <p>Email: info@allstar.ie</p>
-          </div>
+        </div>
+        <div class="col-md-6">
           <form>
-            <div class="col">
-              <div class="form-group">
-                <label for="contactemail">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="contactemail"
-                  aria-describedby="emailHelp"
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="contactfullname">Full Name</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="contactfullname"
-                />
-              </div>
-              <div class="form-group">
-                <label for="contactquery">What would you like to ask us?</label>
-                <textarea
-                  class="form-control"
-                  id="contactquery"
-                  rows="3"
-                ></textarea>
-                <small id="contactHelp" class="form-text text-muted"
-                  >We usually respond within 24 hours</small
-                >
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+              <label for="contactemail">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="contactemail"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
             </div>
+            <div class="form-group">
+              <label for="contactfullname">Full Name</label>
+              <input
+                type="password"
+                class="form-control"
+                id="contactfullname"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactquery">What would you like to ask us?</label>
+              <textarea
+                class="form-control"
+                id="contactquery"
+                rows="3"
+              ></textarea>
+              <small id="contactHelp" class="form-text text-muted"
+                >We usually respond within 24 hours</small
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-      </section>
+      </div>
     </div>
     <!--ContactX-->
     <footer>
