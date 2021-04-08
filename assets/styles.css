@@ -10,11 +10,15 @@
 
 #jumbo-outer {
     background-color: #4361EE;
-    
 }
+
 #jumbo-text-box {
     background-color: #fff;
     margin-top: -30px;
     margin-bottom: -30px;
     padding: 5px
+}
+
+.social-networks {
+    font-size: 40px
 }
