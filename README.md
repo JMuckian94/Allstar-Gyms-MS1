@@ -76,7 +76,7 @@ I used some free icons available on [Font Awesome](https://fontawesome.com/icons
 
 For colors I went with a blend of light and dark colors. Lighter colors are primarily used for text and icon elements while the darker colors provide the background that allows the text elements to pop. I will go into greater detail, color by color, below the image.
 
-![Allstar-color-pallete](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/AllstarColorPal.png "Allstar-Color-Pallete")
+![Allstar-color-pallete](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/wireframes/allstarcolorpal.png "Allstar-Color-Pallete")
 
 - #981F29 Ruby Red: This color will be used for 
 - #090446 Midnight Blue: This color will be used for
