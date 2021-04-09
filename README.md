@@ -222,6 +222,52 @@ Carousel was changing heights to suit image aspect ratio instead of remaining wi
 - Fix
 Applied CSS styling to set max-height to 500px. I also added a container-fluid Bootstrap class so that the carousel always took up 100% screen width.
 
+- Verdit : Issue resolved
 
+#### Form Validation
 
+- Bug
+Modal pops up after hitting submit despite missing data in required fields.
 
+- Fix
+Work in progress.
+
+- Verdict: WIP
+
+## Deployment
+
+This project was deployed via GitHub by executing the following steps. After writing the code, committing and pushing it to GitHub:
+
+1. Navigate to the repository on github and click Settings.
+2. From there, go to the Source section within the Github Pages section.
+3. Select master branch on the dropdown menu, and click save.
+4. Now the website is live on ::
+
+Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the green Clone or Download button on the Github Repository
+2. Using the Clone with HTTPS option, copy the link displayed.
+3. Open your IDE, and ensure the Git Terminal is open.
+4. Change the working directory to the location where the cloned directory is to go.
+5. Use the "git clone" command and paste the url copied in the second step.
+
+## Credits
+
+### Content / Media
+I used some mainstream gym websites to give myself both inspiration and ideas for what sort of content is typically expected.
+
+-[]()
+
+-[]()
+
+-[]()
+
+Most of the images used were provided by the users of []() and []()
+
+Acknowledgements
+
+I would like to thank everyone who got me started on my coding journey, such as the Code Institute team as well as my mentor Simen Daehlin [Eventyret](https://github.com/Eventyret) for putting me on the right track to making good design decisons and helping me to understand and utilise industry best practces.
+
+Also a shoutout to the Slack community for providing help here and there and also for providing some moral support when I was feeling lost.
