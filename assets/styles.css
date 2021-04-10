@@ -58,20 +58,6 @@ div.card{
     font-size: 3rem;
   }
 
-.panel-group {
-    background-color: #fff;
-    color:#494947;
-    text-align: left;
-    margin: 1rem;
-}
-
-.panel-title:after {
-    content: '\254B';
-    font-size: 3rem;
-    color: #dd0113;
-    position: right;
-  }
-  
 .blockquote-footer{
   color: #dd0113;
 }
@@ -79,6 +65,11 @@ div.card{
 .form-help {
   color:#ffffffaa;
 }
+
+.modal-content {
+  background-color: #4361ee !important;
+}
+
 #jumbo-outer {
   background-color: #dd0113;
   margin-top: 5px;
@@ -104,6 +95,7 @@ div.card{
 #class-background{
     background-image: url(/assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
