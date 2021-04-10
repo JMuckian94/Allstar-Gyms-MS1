@@ -3,6 +3,10 @@
 /*--Colors--*/
 body {
     background-color: #090446;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,27 +17,46 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3rem;
 }
 
-p {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
+h5 {
+    color: #2950ff
+}
+
+h6 {
     font-size: 2rem;
 }
 
-form {
-    color: #981f29;
+.row {
+    margin-top: 2rem;
 }
 
-#text-muted-j {
-    color: #fff;
+.form {
+    color: #dd0113;
 }
 
 .carousel-item {
   max-height: 400px;
 }
 
+.social-networks {
+    font-size: 3rem;
+  }
+
+.panel-group {
+    background-color: #fff;
+    color:#494947;
+}
+
+.panel-title:after {
+    content: '\21D5';
+    font-size: 3rem;
+    color: #dd0113;
+    float: right;
+    margin-left: 5px;
+  }
+  
 
 #jumbo-outer {
-  background-color: #981f29;
+  background-color: #dd0113;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -45,14 +68,18 @@ form {
   padding: 5px;
 }
 
+#text-muted-j {
+    color: #fff;
+}
+
 #jumbo-text-box p {
     color: #494947;
 }
 
 #class-background{
-    background-image: url(assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-image: url(/assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.social-networks {
-  font-size: 3rem;
-}
