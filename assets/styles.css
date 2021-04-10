@@ -6,30 +6,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #981f29;
+    color: #dd0113;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 3rem;
 }
 
-h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-}
-
-h2 {
-    font-size: 45px;
-    letter-spacing: 2px;
-}
-
-h3 {
-    font-size: 40px;
-    letter-spacing: 2px;
-}
-
-div p {
+p {
     color: #fff;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 form {
@@ -62,6 +49,10 @@ form {
     color: #494947;
 }
 
+#class-background{
+    background-image: url(assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
+}
+
 .social-networks {
-  font-size: 40px;
+  font-size: 3rem;
 }
