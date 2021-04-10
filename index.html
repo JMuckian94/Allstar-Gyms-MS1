@@ -89,35 +89,35 @@
     </div>
     <!--CalloutX-->
     <!--HeroImage-->
-    <div class="container-fluid">
+    <div class="container-fluid d-sm-none d-md-block">
       <div class="row">
         <div class="carousel slide carousel-fade mb-2" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="assets/img/stockvault-fitness-center106595.jpg"
-                class=".d-none w-100"
+                class="w-100"
                 alt="fitness-center"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="assets/img/ryan-de-hamer-pCT8ag1o3nU-unsplash.jpg"
-                class=".d-none w-100"
+                class="w-100"
                 alt="treadmills"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="assets/img/stockvault-healthclub-equipment137889.jpg"
-                class=".d-none w-100"
+                class="w-100"
                 alt="healthclub-equipment"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="assets/img/stockvault-weights-in-the-gym237081.jpg"
-                class="d-block w-100"
+                class="w-100"
                 alt="weights-gym"
               />
             </div>
@@ -176,7 +176,7 @@
     </div>
     <!--AboutX-->
     <!--Classes-->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12 my-4">
           <h2 class="text-uppercase">
@@ -185,43 +185,51 @@
         </div>
       </div>
       <div id="class-background" class="row">
-        <div class="col-12 col-md-4 col-lg-2.4">
+        <div class="col-12 col-md-4 col-lg-2">
           <div>
             <h3>Circuit Monday <i class="fas fa-dumbbell"></i></h3>
             <p>Weights & Machines</p>
-            <h6>Start Times:</h6>
+            <h3>Start Times:</h3>
             <p>5pm, 7pm, 9pm</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-2.4">
+        <div class="col-12 col-md-4 col-lg-2">
           <div>
             <h3>Yoga Pilates Tuesday <i class="fas fa-heart"></i></h3>
             <p>Light Weights Body Weight</p>
-            <h6>Start Times:</h6>
+            <h3>Start Times:</h3>
             <p>5pm, 7pm, 9pm</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-2.4">
+        <div class="col-12 col-md-4 col-lg-2">
           <div>
             <h3>Spinning Wednesday <i class="fas fa-biking"></i></h3>
             <p>Spin Bikes</p>
-            <h6>Start Times:</h6>
+            <h3>Start Times:</h3>
             <p>5pm, 7pm, 9pm</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-2.4">
+        <div class="col-12 col-md-4 col-lg-2">
           <div>
             <h3>Circuit Thursday <i class="fas fa-dumbbell"></i></h3>
             <p>Weights & Machines</p>
-            <h6>Start Times:</h6>
+            <h3>Start Times:</h3>
             <p>5pm, 7pm, 9pm</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 col-lg-2.4">
+        <div class="col-12 col-md-4 col-lg-2">
+          <div>
+            <h3>Spinning Friday <i class="fas fa-biking"></i></h3>
+            <p>Spin Bikes</p>
+            <h3>Start Times:</h3>
+            <p>5pm, 7pm, 9pm</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
           <div>
             <h3>Yoga Pilates Sunday <i class="fas fa-heart"></i></h3>
             <p>Light Weights Body Weight</p>
-            <h6>Start Times:</h6>
+            <h3>Start Times:</h3>
             <p>12pm, 2pm, 4pm</p>
           </div>
         </div>
@@ -230,120 +238,156 @@
     <!--ClassesX-->
     <!--FAQs-->
     <div class="container">
-        <div class="row">
-          <div class="col-12 my-4">
-            <h2 class="text-uppercase">
-              FAQs <i class="fas fa-question-circle"></i>
-            </h2>
-          </div>
+      <div class="row">
+        <div class="col-12 my-4">
+          <h2 class="text-uppercase">
+            FAQs <i class="fas fa-question-circle"></i>
+          </h2>
         </div>
-        <div class="row">
-          <div class="col-12 ml-auto panel-group">
-            <!-- First Panel -->
-            <div class="panel panel-default">
-              <div class="panel-heading my-2">
-                <h5
-                  class="panel-title"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                >
-                  What kind of equipment is available?
-                </h5>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body my-2">
-                  We have top quality machines and weight sets from major
-                  industry brands such as Precor, Cybex and Hammer Strength!
-                </div>
-              </div>
-            </div>
-            <!-- Second Panel -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h5
-                  class="panel-title"
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                >
-                  What kind of class and trainer options are available?
-                </h5>
-              </div>
+      </div>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h4 class="mb-0">
+              <button
+                class="btn btn-link"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What kind of equipment is available?
+              </button>
+            </h4>
+          </div>
 
-              <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
-                  We offer a wide range of class and trainer choices for people
-                  looking to build strength, improve fitness, and lose weight.
-                  Classes provide a fun social means of working out while our
-                  trainers can provide a gym experience tailored to your
-                  specific needs.
-                </div>
-              </div>
-            </div>
-            <!-- Third Panel -->
-            <div class="panel panel-default">
-              <div class="panel-heading panel-heading-full">
-                <h5
-                  class="panel-title"
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                >
-                  What kind of membership options are available?
-                </h5>
-              </div>
-
-              <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                  We offer a variety of payment packages to suit your needs
-                  including Annual, Monthly, and Pay as you Go options. We also
-                  offer a flexipass for if you want access to all of our gyms
-                  across Dublin City.
-                </div>
-              </div>
-            </div>
-            <!-- Fourth Panel -->
-            <div class="panel panel-default">
-              <div class="panel-heading panel-heading-full">
-                <h5
-                  class="panel-title"
-                  data-toggle="collapse"
-                  data-target="#collapseFour"
-                >
-                  What are Allstar Gym's opening hours?
-                </h5>
-              </div>
-
-              <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Allstar Gyms are open 364 days a year (closed on Christmas
-                  Day). Opening times are between 06.00 and 23.30 Monday to
-                  Friday and 06.30 to 21.00 Saturday, Sunday, and Bank Holidays.
-                </div>
-              </div>
-            </div>
-            <!-- Fifth Panel -->
-            <div class="panel panel-default">
-              <div class="panel-heading panel-heading-full">
-                <h5
-                  class="panel-title"
-                  data-toggle="collapse"
-                  data-target="#collapseFive"
-                >
-                  What do I need to bring with me to the gym?
-                </h5>
-              </div>
-
-              <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
-                  Please bring your access card as our entrances are automated.
-                  Also, bring appropriate gym attire as well as a hand towel and
-                  water bottle. However, we have have vending machines that
-                  provide refreshments and clean towels just incase.
-                </div>
-              </div>
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              We have top quality machines and weight sets from major industry
+              brands such as Precor, Cybex and Hammer Strength! These machines
+              are cleaned regularly and staff are on hand to advise in their
+              safe usage.
             </div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h4 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What kind of class and trainer options are available?
+              </button>
+            </h4>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              We offer a wide range of class and trainer choices for people
+              looking to build strength, improve fitness, and lose weight.
+              Classes provide a fun social means of working out while our
+              trainers can provide a gym experience tailored to your specific
+              needs.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h4 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What kind of payment options are available?
+              </button>
+            </h4>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              We offer a variety of payment packages to suit your needs
+              including Annual, Monthly, and Pay as you Go options.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h4 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                What are Allstar Gym's opening hours?
+              </button>
+            </h4>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Allstar Gyms are open 364 days a year (closed on Christmas Day).
+              Opening times are between 06.00 and 23.30 Monday to Friday and
+              06.30 to 21.00 Saturday, Sunday, and Bank Holidays.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h4 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                What do I need to bring with me to the gym?
+              </button>
+            </h4>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Please bring your access card as our entrances are automated.
+              Also, bring appropriate gym attire as well as a hand towel and
+              water bottle. However, we have have vending machines that provide
+              refreshments and clean towels just incase.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     <!--FAQsX-->
     <!--Reviews-->
     <div class="container">
@@ -398,7 +442,7 @@
       <section class="gallery">
         <div class="row">
           <div class="col-12 my-4">
-            <h2 id="gallery" class="text-uppercase">
+            <h2 class="text-uppercase">
               Gallery <i class="fas fa-camera-retro"></i>
             </h2>
           </div>
@@ -408,63 +452,63 @@
             <img
               src="assets/img/stockvault-weight-lifting205865.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="weight-lifting"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/stockvault-weekday-workout281144.png"
               class="img-fluid"
-              alt="Responsive image"
+              alt="weekday-workout"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/stockvault-healthclub-equipment137889.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="healthclub-equipment"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="gym-session"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/stockvault-fitness-center106595.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="fitness-center"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/ryan-de-hamer-pCT8ag1o3nU-unsplash.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="treadmills"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
-              src="assets/img/trust-tru-katsande-A_ftsTh53lM-unsplash.jpg"
+              src="assets/img/jelmer-assink-gzeTjGu3b_k-unsplash.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="squat-bar"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/stockvault-weight-lifting203520.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="weight-lifting"
             />
           </div>
           <div class="col-lg-4 col-md-6 col-12">
             <img
               src="assets/img/stockvault-weights-in-the-gym237081.jpg"
               class="img-fluid"
-              alt="Responsive image"
+              alt="weights-in-the-gym"
             />
           </div>
         </div>
@@ -482,7 +526,7 @@
       </div>
       <div class="row align-items-center">
         <div class="col-md-6">
-          <h5>Head Office</h5>
+          <h3>Head Office</h3>
           <p>Address: 123 Fleet Street, Dublin 4</p>
           <p>Phone: 0123456789</p>
           <p>Email: info@allstar.ie</p>
