@@ -17,8 +17,14 @@ h1, h2, h3, h4 {
     font-size: 3rem;
 }
 
+h3 {
+  color: rgb(255, 0, 0);
+  letter-spacing: 2px;
+  font-size: 2.75rem;
+}
+
 h4 {
-    color: #4361ee;
+    color: #ffffff;
     letter-spacing: 2px;
     font-size: 2.5rem;
 }
@@ -66,7 +72,13 @@ div.card{
     position: right;
   }
   
+.blockquote-footer{
+  color: #dd0113;
+}
 
+.form-help {
+  color:#ffffffaa;
+}
 #jumbo-outer {
   background-color: #dd0113;
   margin-top: 5px;
@@ -91,7 +103,7 @@ div.card{
 
 #class-background{
     background-image: url(/assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
 }
 
