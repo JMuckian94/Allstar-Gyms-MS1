@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
 
-/*--Colors--*/
+/*--General Rules--*/
 body {
     background-color: #090446;
     text-align: center;
@@ -28,6 +28,10 @@ h4 {
     letter-spacing: 2px;
     font-size: 2.5rem;
 }
+
+/*--General RulesX--*/
+
+/*--Classes--*/
 
 div.card{
   background-color: #494947;
@@ -70,6 +74,10 @@ div.card{
   background-color: #4361ee !important;
 }
 
+/*--ClassesX--*/
+
+/*--IDs--*/
+
 #jumbo-outer {
   background-color: #dd0113;
   margin-top: 5px;
@@ -99,3 +107,4 @@ div.card{
     color: #fff;
 }
 
+/*--IDsX--*/
