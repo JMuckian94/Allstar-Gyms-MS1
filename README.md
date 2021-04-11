@@ -25,7 +25,7 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - As a user, I want to know what kind of gym this is as well as the clientele I can expect to find here.
 - As a user, I want to find information regarding classes as well as associated times. 
 - As a user, I want to research pricing and policy information.
-- As a user, I want to see images that show off the gyms interior and imagine myself there and how comfortable I may or may not feel.
+- As a user, I want to see images that show off the gyms interior.
 - As a user, I want to be able to see testemonials from people who are already members.
 - As a user, I want to find out if one of the gyms are near me.
 - As a user, I want to be able to contact a member of staff using information available on the site.
@@ -138,7 +138,7 @@ This section will contain the company's contact information as well as a contact
 
 ## Features to be Implemented
 
-- Sign up modal for when the user clicks the sign up button on the jumbotron
+- Javascripts for stopping the modal in the "Contact" section from showing unless the user has submited information in the required fields. Same thing to be implemented for "Sign Up" button 
 
 ## Technologies Used
 
@@ -166,107 +166,110 @@ This section will contain the company's contact information as well as a contact
 ## Testing of Interactive Elements
 
 ### Navigation
-- Plan
+##### - Plan
 I will create a navbar that will follow the user down the page. This suits the single page design and will help the user navigate to the desired sections with ease. I will also include a scrollspy feature to highlight what area of the page the user is currently looking at. The navbar will increase the number of items available from small to large screens. It will transition from a hamburger icon to a short list of items and then to the full list at large screen widths.
 
-- Implementation
+##### - Implementation
 The navbar was created using Bootstrap components. This allowed for initial simple alignment, coloring and font options. I then overrided some of these elements using my own CSS styling. Bootstrap also made the transition from hamburger to full list of nav items simple using its intuitive display property classes.
 
-- Test
+##### - Test
 I clicked each item in the live navbar to test that it takes me to the correct area of the page each time. I also opened the site and did this test again on Edge, Firefox, Chrome and Safari to make sure the experience was consistant and bug free. 
 
-- Result
+##### - Result
 On tablet and mobile the nav elements reduced nicely and then finally converted to the hamburger icon without issues. The navigation also worked on all browsers tested without error. However, I am still adjusting the logo positioning on mobile as it currently wraps the hamburger icon giving an uneven look.
 
-- Verdict
+##### - Verdict
 All nav elements and display properties work as intended. Some styling issues left to be resolved.
 
 ### Modals
-- Plan
+##### - Plan
 I plan to implement a modal that appears whenever the user clicks the Sign In/Sign Up navbar item or the Sign Up button on the jumbotron. This modal will contain a form to fill out with various personal information typically needed for a new user account. I also want to include a modal that pops up when a user has submitted info correctly in the contact section.
 
-- Implementation
+##### - Implementation
 I utitilised Bootstrap's packaged Javascript elements to include this funtionality. The modal is centered on the page and uses similar styling to the rest of the site. The modal includes form elements that ask for full name, address, and email. Card information is ommited as in future I would include that in a more secure format via an encrypted external process. The user also has the option to exit the modal using an "X" symbol in the top right corner. The contact section modal just includes a message and does not ask for further input.
 
-- Test
+##### - Test
 I have tested the sign up modal and it is functioning well on all browsers and device sizes. The form elements seek info when trying to submit by turning red. Currently nothing happends when info is provided. The modal simply closes. This is the same for the "X" symbol, the user will be returned to the main site.
 
-- Result 
+##### - Result 
 All the form elements are functioning as intended and the submit and "X" buttons function as intended for this project. Some styling elements clash and require adjustment.
 
-- Verdict
+##### - Verdict
 All functionality working. Styling needs further work.
 
 ### Contact Form
-- Plan
+##### - Plan
 I plan to implement three form elements to the contact section, asking the user to provide full name, email address, and their query in seperate areas. There is then a submit button to click at the bottom for when the user is finished inputting their info. Once the submit button is clicked with the required fields filled a modal message should appear to inform the user that the query was sent successfully. 
 
-- Implementation
+##### - Implementation
 I used grid and form components from Bootstrap to provide structure and positioning of the contact form. Bootstrap also made it easy to scale up and float the form, from underneath, to the right on larger screens so as to be adjacent to the business contact info. I then  styled the text elements using CSS to make it consistant with the rest of the site. I went with a label format instead of placeholders, as I have space to work with in that section and I felt it looked better.
 
-- Test
-All form elements are working correctly. However, the modal currently pops up regardless of whether the user has inputted information or not. This will be fixed for the final deployment. Currently, user data isn't being saved or sent anywhere. This functionality will be implemented once I aquire new abilities with Javascript and have the appropriate resources for data storage and encryption. All elements floated to desired positions on various screen widths.
+##### - Test
+All form elements are working correctly. However, the modal currently pops up regardless of whether the user has inputted information or not. Currently, user data isn't being saved or sent anywhere. This functionality will be implemented once I aquire new abilities with Javascript and have the appropriate resources for data storage and encryption. All elements floated to desired positions on various screen widths.
 
-- Result
+##### - Result
 Form elements functioning as intented. Submit button working as intended. Responsive elements working as intended. Modal requires extra Javascript elements to function as intended. Some styling elements looked a bit ugly.
 
-- Verdict
+##### - Verdict
 Modal and styling requires further work. All other elements and their positioning in line with initial plan.
 
 ### Bugs
 
 #### Hero Image Carousel
-- Bug
+##### - Bug
 Carousel was changing heights to suit image aspect ratio instead of remaining within its desired container.
 
-- Fix
+##### - Fix
 Applied CSS styling to set max-height to 500px. I also added a container-fluid Bootstrap class so that the carousel always took up 100% screen width.
 
-- Verdit : Issue resolved
+##### - Verdit : Issue resolved
 
 #### Form Validation
 
-- Bug
+##### - Bug
 Modal pops up after hitting submit despite missing data in required fields.
 
-- Fix
-Work in progress.
+##### - Fix
+To my knowledge it will require Javascripts to alter this behaviour. I will write the scripts once I have attained the appropriate knowledge.
 
 - Verdict: WIP
+
+#### FAQs Section
+##### -Bug
 
 ## Deployment
 
 This project was deployed via GitHub by executing the following steps. After writing the code, committing and pushing it to GitHub:
 
-1. Navigate to the repository on github and click Settings.
-2. From there, go to the Source section within the Github Pages section.
-3. Select master branch on the dropdown menu, and click save.
-4. Now the website is live on ::
+###### 1. Navigate to the repository on github and click Settings.
+###### 2. From there, go to the Source section within the Github Pages section.
+###### 3. Select master branch on the dropdown menu, and click save.
+###### 4. Now the website is live.
 
 Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
-To run the project locally:
+### To run the project locally:
 
-1. Click the green Clone or Download button on the Github Repository
-2. Using the Clone with HTTPS option, copy the link displayed.
-3. Open your IDE, and ensure the Git Terminal is open.
-4. Change the working directory to the location where the cloned directory is to go.
-5. Use the "git clone" command and paste the url copied in the second step.
+###### 1. Click the green Clone or Download button on the Github Repository
+###### 2. Using the Clone with HTTPS option, copy the link displayed.
+###### 3. Open your IDE, and ensure the Git Terminal is open.
+###### 4. Change the working directory to the location where the cloned directory is to go.
+###### 5. Use the "git clone" command and paste the url copied in the second step.
 
 ## Credits
 
 ### Content / Media
 I used some mainstream gym websites to give myself both inspiration and ideas for what sort of content is typically expected.
 
--[]()
+-[Flyefit](https://www.flyefit.ie/)
 
--[]()
+-[Ben Dunne](https://www.bendunnegyms.com/)
 
--[]()
+-[Westwood](https://westwood.ie/)
 
-Most of the images used were provided by the users of []() and []()
+Most of the images used were provided by the users of [Unsplash](https://unsplash.com/) and [Stockvault](https://www.stockvault.net/)
 
-Acknowledgements
+### Acknowledgements
 
 I would like to thank everyone who got me started on my coding journey, such as the Code Institute team as well as my mentor Simen Daehlin [Eventyret](https://github.com/Eventyret) for putting me on the right track to making good design decisons and helping me to understand and utilise industry best practces.
 
