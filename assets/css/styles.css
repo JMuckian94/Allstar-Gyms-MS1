@@ -101,7 +101,7 @@ div.card{
 }
 
 #class-background{
-    background-image: url(/assets/img/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-image: url("../img/luis-vidal-FodEsaNZs48-unsplash.jpg");
     background-size: cover;
     background-color: #494947;
     background-repeat: no-repeat;
