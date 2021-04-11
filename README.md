@@ -265,7 +265,7 @@ Carousel was changing heights to suit image aspect ratio instead of remaining wi
 ##### - Fix
 Applied CSS styling to set max-height to 500px. I also added a container-fluid Bootstrap class so that the carousel always took up 100% screen width.
 
-##### - Verdit : Issue resolved
+##### - Verdict : Issue resolved
 
 #### Form Validation
 
@@ -275,10 +275,19 @@ Modal pops up after hitting submit despite missing data in required fields.
 ##### - Fix
 To my knowledge it will require Javascripts to alter this behaviour. I will write the scripts once I have attained the appropriate knowledge.
 
-- Verdict: WIP
+##### - Verdict: WIP
 
 #### FAQs Section
-##### -Bug
+
+##### - Bug
+Dropdown cards were loading the card aboves body instead of their own.
+
+##### - Fix
+
+Corrected the data target errors.
+
+##### - Verdict : Issue Resolved
+
 
 ## Deployment
 
