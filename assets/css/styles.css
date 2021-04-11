@@ -8,8 +8,6 @@ body {
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
-    text-decoration-skip-ink: auto;
-    overflow-anchor: auto;
 }
 
 h1, h2, h3, h4 {
