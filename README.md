@@ -6,6 +6,8 @@ Welcome to Allstar! Allstar are a new gym francise who have set up facilities in
 
 The website design I have chosen is clear and concise, and provides sufficient information to satisfy the curiousity of prospective members. This information can be easily obtained due to the intuitive layout of the page. It utilises striking colors and appealing imagery to catch the users attention.
 
+## Table of Contents
+
 - [Allstar](#allstar)
   * [UX](#ux)
     + [Website Design Goals](#website-design-goals)
