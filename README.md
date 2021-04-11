@@ -1,5 +1,7 @@
 # Allstar Gyms
 
+![Device Mockups](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/wireframes/allstar-gyms-mockup-img.png)
+
 ## Project Objective
 
 Welcome to Allstar! Allstar are a new gym francise who have set up facilities in the Dublin City area. They require a new website that targets customers with attractive design and vivid imagery. 
