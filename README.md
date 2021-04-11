@@ -119,15 +119,13 @@ I used some free icons available on [Font Awesome](https://fontawesome.com/icons
 
 For colors I went with a blend of light and dark colors. Lighter colors are primarily used for text and icon elements while the darker colors provide the background that allows the text elements to pop. I will go into greater detail, color by color, below the image.
 
-![Allstar-color-pallete](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/wireframes/allstarcolorpal.png "Allstar-Color-Pallete")
+![Allstar-color-pallete](https://github.com/JMuckian94/Allstar-Gyms-MS1/blob/master/wireframes/Allstar%20Gyms.png)
 
-- #981F29 Ruby Red: This color will be used for 
-- #090446 Midnight Blue: This color will be used for
-- #4361EE Ultramarine Blue: This color will be used for
-- #494947 Davys Grey: This color will be used for
-- #FFFFFF: This color will be used for primarily text elements as it will stand out best on dark backgrounds.
-
-Work in progress
+- #981F29 Maximum Red: This color will be used for primary headings.
+- #090446 Midnight Blue: This color will be used for the website background.
+- #4361EE Ultramarine Blue: This color will be used for the modal backgrounds.
+- #494947 Davys Grey: This color will be used for the navbar.
+- #FFFFFF: This color will be used for primarily paragraph and minor heading elements.
 
 #### Structure
 
