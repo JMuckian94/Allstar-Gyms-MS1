@@ -4,9 +4,9 @@
 
 ## Project Objective
 
-Welcome to Allstar! Allstar are a new gym francise who have set up facilities in the Dublin City area. They require a new website that targets customers with attractive design and vivid imagery. 
+Welcome to Allstar Gym's new webpage! Allstar are a new gym francise who have set up in the Dublin City area. They required a new website that targets customers with attractive design and vivid imagery. 
 
-The website design I have chosen is clear and concise, and provides sufficient information to satisfy the curiousity of prospective members. This information can be easily obtained due to the intuitive layout of the page. It utilises striking colors and appealing imagery to catch the users attention.
+The website design I have chosen is clear and concise, and provides sufficient information to satisfy the curiousity of prospective members. This information can be easily obtained due to the intuitive layout of the page. It utilises striking colors and appealing imagery to catch the users attention. This README will tell the design story and give insite into how it all came together. 
 
 ## Table of Contents
 
@@ -60,7 +60,7 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - Vivid imagery to capture the imagination of website visitors
 - Information regarding gym facilities, classes and trainers
 - Smooth intuitive navigation elements to assist user experience
-- Information regarding contact details, site locations and a contact form option
+- Information regarding contact details, site location and a contact form option
 - Member testemonials
 - Social media links
 
@@ -70,11 +70,10 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - As a user, I want to know what kind of gym this is as well as the clientele I can expect to find here.
 - As a user, I want to find information regarding classes as well as associated times. 
 - As a user, I want to research pricing and policy information.
-- As a user, I want to see images that show off the gyms interior.
+- As a user, I want to see images that show off the gym's interior.
 - As a user, I want to be able to see testemonials from people who are already members.
-- As a user, I want to find out if one of the gyms are near me.
+- As a user, I want to find out if the gym is near me.
 - As a user, I want to be able to contact a member of staff using information available on the site.
-- As a user, if I left something behind I will have piece of mind to know I can get in touch quickly and can avoid a phonecall.
 - As a user, I want the website to motivate me to join and to start working out and better myself.
 - As a user, I want to be able to intuitively move around the site.
 
@@ -149,9 +148,9 @@ Here are the links to my wireframes:
 
 ### Navigation
 
-I used Bootstrap to create a responsive searchbar that will adapt to the platform the user is viewing the website from. Since this is a single page site design I have opted for a sticky navbar. This will give the user greater agility and help them identify the relevant information sooner. This navbar will convert to a hamburger icon on mobile devices to avoid crowding. I have also implemented the Bootstrap scroll spy feature, to remind the user where they are currently on the page, by highlighting the appropriate heading in the navbar.
+I used Bootstrap to create a responsive searchbar that will adapt to the platform the user is viewing the website from. Since this is a single page site design I have opted for a sticky navbar. This will give the user greater agility and help them identify the relevant information sooner. This navbar will convert to a hamburger icon on mobile devices to avoid crowding. The navbar will link all of the headings on the page on large and has a reduced list on small to avoid crowding issues.
 
-### Hero Image Slideshow
+### Hero Image Carousel
 
 The hero image slideshow will act as an initial impression maker for any first time visitors, adding some dynamism to an otherwise static website. This section will use a rotation of images to give users a quick taste of the gyms atmosphere. The slideshow is configured to occupy 100% screen width and to adjust height to the appropriate size for each viewing platform.
 
@@ -177,11 +176,11 @@ For this section I went with a dark background image of the gym facility which I
 
 ### Contact Section
 
-This section will contain the company's contact information as well as a contact form for if email or phone options arn't imediately available to the user. I aligned the contact information on the left and the contact form on the right. Below these elements will be the company's social media links
+This section will contain the company's contact information as well as a contact form for if email or phone options arn't imediately available to the user. I aligned the contact information on the left and the contact form on the right. The submit modal prompts a modal pop up which informs the user that the information was sent successfully and that a member of staff will be in touch.
 
 ## Features to be Implemented
 
-- Javascripts for stopping the modal in the "Contact" section from showing unless the user has submited information in the required fields. Same thing to be implemented for "Sign Up" button 
+- Javascripts for stopping the modal in the "Contact" section from showing unless the user has submited information in the required fields. Same thing to be implemented for "Sign Up" button on the jumbotron at the top of the page.
 
 ## Technologies Used
 
@@ -210,23 +209,22 @@ This section will contain the company's contact information as well as a contact
 
 ### Navigation
 ##### - Plan
-I will create a navbar that will follow the user down the page. This suits the single page design and will help the user navigate to the desired sections with ease. I will also include a scrollspy feature to highlight what area of the page the user is currently looking at. The navbar will increase the number of items available from small to large screens. It will transition from a hamburger icon to a short list of items and then to the full list at large screen widths.
+I will create a navbar that will follow the user down the page. This suits the single page design and will help the user navigate to the desired sections with ease. The navbar will increase the number of items available from small to large screens. It will transition from a hamburger icon to a short list of items and then to the full list at large screen widths. The "Sign Up" button will provide a form to fill out in a modal box.
 
 ##### - Implementation
 The navbar was created using Bootstrap components. This allowed for initial simple alignment, coloring and font options. I then overrided some of these elements using my own CSS styling. Bootstrap also made the transition from hamburger to full list of nav items simple using its intuitive display property classes.
 
 ##### - Test
-I clicked each item in the live navbar to test that it takes me to the correct area of the page each time. I also opened the site and did this test again on Edge, Firefox, Chrome and Safari to make sure the experience was consistant and bug free. 
+I clicked each item in the live navbar to test that it takes me to the correct area of the page each time. I also opened the site and did this test again on Edge, Firefox, Chrome and Safari to make sure the experience was consistant and bug free.
 
 ##### - Result
-On tablet and mobile the nav elements reduced nicely and then finally converted to the hamburger icon without issues. The navigation also worked on all browsers tested without error. However, I am still adjusting the logo positioning on mobile as it currently wraps the hamburger icon giving an uneven look.
-
+On tablet and mobile the nav elements reduced nicely and then finally converted to the hamburger icon without issues. The navigation also worked on all browsers tested without error.
 ##### - Verdict
-All nav elements and display properties work as intended. Some styling issues left to be resolved.
+All nav elements and display properties work as intended.
 
 ### Modals
 ##### - Plan
-I plan to implement a modal that appears whenever the user clicks the Sign In/Sign Up navbar item or the Sign Up button on the jumbotron. This modal will contain a form to fill out with various personal information typically needed for a new user account. I also want to include a modal that pops up when a user has submitted info correctly in the contact section.
+I plan to implement a modal that appears whenever the user clicks the Sign Up navbar item or the Sign Up button on the jumbotron. This modal will contain a form to fill out with various personal information typically needed for a new user account. I also want to include a modal that pops up when a user has submitted info correctly in the contact section.
 
 ##### - Implementation
 I utitilised Bootstrap's packaged Javascript elements to include this funtionality. The modal is centered on the page and uses similar styling to the rest of the site. The modal includes form elements that ask for full name, address, and email. Card information is ommited as in future I would include that in a more secure format via an encrypted external process. The user also has the option to exit the modal using an "X" symbol in the top right corner. The contact section modal just includes a message and does not ask for further input.
@@ -235,10 +233,9 @@ I utitilised Bootstrap's packaged Javascript elements to include this funtionali
 I have tested the sign up modal and it is functioning well on all browsers and device sizes. The form elements seek info when trying to submit by turning red. Currently nothing happends when info is provided. The modal simply closes. This is the same for the "X" symbol, the user will be returned to the main site.
 
 ##### - Result 
-All the form elements are functioning as intended and the submit and "X" buttons function as intended for this project. Some styling elements clash and require adjustment.
-
+All the form elements are functioning as intended and the submit and "X" buttons function as intended for this project.
 ##### - Verdict
-All functionality working. Styling needs further work.
+All functionality working.
 
 ### Contact Form
 ##### - Plan
@@ -251,10 +248,10 @@ I used grid and form components from Bootstrap to provide structure and position
 All form elements are working correctly. However, the modal currently pops up regardless of whether the user has inputted information or not. Currently, user data isn't being saved or sent anywhere. This functionality will be implemented once I aquire new abilities with Javascript and have the appropriate resources for data storage and encryption. All elements floated to desired positions on various screen widths.
 
 ##### - Result
-Form elements functioning as intented. Submit button working as intended. Responsive elements working as intended. Modal requires extra Javascript elements to function as intended. Some styling elements looked a bit ugly.
+Form elements functioning as intented. Submit button working as intended. Responsive elements working as intended. Modal requires extra Javascript elements to function as intended.
 
 ##### - Verdict
-Modal and styling requires further work. All other elements and their positioning in line with initial plan.
+All elements and their positioning in line with design plan.
 
 ### Bugs
 
@@ -263,7 +260,7 @@ Modal and styling requires further work. All other elements and their positionin
 Carousel was changing heights to suit image aspect ratio instead of remaining within its desired container.
 
 ##### - Fix
-Applied CSS styling to set max-height to 500px. I also added a container-fluid Bootstrap class so that the carousel always took up 100% screen width.
+Applied CSS styling to set max-height to 500px. I also added a container-fluid Bootstrap class so that the carousel always took up 100% screen width. Made the carousel disappear on smaller screen sizes.
 
 ##### - Verdict : Issue resolved
 
@@ -319,7 +316,7 @@ I used some mainstream gym websites to give myself both inspiration and ideas fo
 
 -[Westwood](https://westwood.ie/)
 
-Most of the images used were provided by the users of [Unsplash](https://unsplash.com/) and [Stockvault](https://www.stockvault.net/)
+Most of the images used were provided by the content creators at [Unsplash](https://unsplash.com/) and [Stockvault](https://www.stockvault.net/).
 
 ### Acknowledgements
 
