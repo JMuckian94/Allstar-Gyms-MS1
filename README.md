@@ -83,7 +83,6 @@ The website design I have chosen is clear and concise, and provides sufficient i
 - To attract new members
 - To persuade customers to consider us over our competitors
 - To stand out as a brand in peoples minds
-- As a user, I want to have access to the gyms assoicated social media so I can be part of their community.
 
 ### User Requirements and Expectations
 
